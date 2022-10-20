@@ -111,8 +111,7 @@ void destroyLinkedList(collatzNodePar** head_ref)
 	}
 	delete currentNode; // delete the current node
 	currentNode = nullptr; // ^ part 2
-
-
+}
 
 // Important Links:
 // https://www.geeksforgeeks.org/write-a-function-to-delete-a-linked-list
